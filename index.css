@@ -5,8 +5,7 @@
 
 body {
 
-    background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 0.73) 0%, rgba(54, 134, 150, 1) 100%);
+    background: rgba(248, 247, 255, 0.753);
 
 
 
@@ -20,14 +19,15 @@ body {
 }
 
 .main {
-    width: 450px;
+    width: auto;
+    height: auto;
     padding: 50px;
     flex-wrap: wrap;
     margin: 20px;
     border: solid 1px transparent;
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
+    border-radius:5px;
+    box-shadow: rgba(238, 101, 101, 0.438) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+background: transparent;
 }
 
 .mainBox {
@@ -40,7 +40,7 @@ body {
 }
 
 .toLab {
-    color: rgba(3, 3, 74, 0.774);
+    color: rgba(22, 22, 57, 0.774);
     text-align: center;
     font-size: 28px;
     font-weight: bold;
@@ -57,7 +57,7 @@ body {
     outline: none;
     width: 100%;
     border: 0;
-    border-bottom: 3px solid gray;
+    border-bottom: 3px solid rgb(213, 211, 211);
     background-color: transparent;
     font-size: medium;
     font-weight: bold;
@@ -69,7 +69,6 @@ body {
 .ibContainer button {
     background-color: aquamarine;
     padding: 10px 10px;
-
     border: none;
     border-radius: 5px;
 }
@@ -89,7 +88,5 @@ body {
 #listContainer {
     font-size: 20px;
     font-weight: 900;
-    list-style: decimal;
-    font-style: oblique;
-    color: rgba(177, 212, 212, 0.851);
+    color: rgb(3, 1, 1);
 }
